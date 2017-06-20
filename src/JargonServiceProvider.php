@@ -46,7 +46,7 @@ class JargonServiceProvider extends ServiceProvider
     protected function registerLoader()
     {
         $this->app->singleton('jargon.loader', function ($app) {
-            return new FileLoader($app['files'], $app->path('jargon'));
+            return new FileLoader($app['files'], $app['path.jargon']);
         });
     }
 
