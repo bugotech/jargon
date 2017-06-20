@@ -1,8 +1,8 @@
 <?php namespace Bugotech\Jargon;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Translation\FileLoader;
 use Illuminate\Translation\Translator;
+use Illuminate\Support\ServiceProvider;
 
 class JargonServiceProvider extends ServiceProvider
 {
