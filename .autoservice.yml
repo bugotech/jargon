@@ -1,4 +1,5 @@
 auto-service: bugotech.jargon
+priority: 100
 
 services:
  - \Bugotech\Jargon\JargonServiceProvider
